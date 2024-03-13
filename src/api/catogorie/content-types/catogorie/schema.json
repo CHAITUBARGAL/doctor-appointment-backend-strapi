@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catogories",
+  "info": {
+    "singularName": "catogorie",
+    "pluralName": "catogories",
+    "displayName": "Catogories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
